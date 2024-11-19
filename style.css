@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+}   
 html{
     scroll-behavior: smooth;
 }
@@ -74,6 +74,7 @@ section .title::after{
     color: #0478bb;
     padding: 0 5px;
     background: #f8f2f2;
+    
     transform: translateX(-50%);
 }
 
@@ -99,13 +100,28 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
 }
 .navbar .logo a span{
     color: #0478bb;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
 }
 .navbar .menu li{
     list-style: none;
@@ -114,6 +130,11 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: #fff;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -124,6 +145,11 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
 }
 
 /* menu btn styling */
@@ -165,7 +191,6 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-   
     .video-background {
         position: relative; /* Keeps the video in place when scrolling */
         
@@ -183,6 +208,11 @@ section .title::after{
     }
     height: 100vh;
     color: #fff;
+    text-shadow: 
+    1px 1px 0px rgb(7, 7, 7),   /* Top-left shadow */
+    -1px -1px 0px rgb(8, 8, 8), /* Bottom-right shadow */
+    1px -1px 0px rgb(20, 20, 20),  /* Top-right shadow */
+    -1px 1px 0px rgb(8, 8, 8);  /* Bottom-left shadow */
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
