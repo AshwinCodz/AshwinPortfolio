@@ -202,8 +202,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-}
-.video-background {
+    .video-background {
     position: fixed; /* Keeps the video in place when scrolling */
     top: 0;
     left: 0;
@@ -216,6 +215,8 @@ video {
     height: auto;
     object-fit: fill; 
     margin: 0 auto;/* Ensures the video covers the screen without distortion */
+}
+
 }
 
 .home .max-width{
