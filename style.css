@@ -9,6 +9,7 @@
 }
 html{
     scroll-behavior: smooth;
+    background-color: #555;
 }
 @media (max-width: 768px) {
     .video-background video {
