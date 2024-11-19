@@ -229,7 +229,8 @@ section .title::after{
 video {
     width: 100%; /* Make the video cover the entire screen */
     height: 100%;
-    object-fit: cover; /* Ensures the video covers the screen without distortion */
+    object-fit: cover; 
+    margin: 0 auto;/* Ensures the video covers the screen without distortion */
 }
 
 .home .max-width{
